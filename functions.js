@@ -41,7 +41,7 @@ module.exports = {
     },
 
     httpGet: async function(theUrl, params){
-        let response = await axios.get(theUrl, params).then();
+        let response = await axios.get(theUrl).then();
         return response;   
     }
 
